@@ -1,7 +1,7 @@
 {
   "version": 1,
   "serviceConfiguration": {
-    "apiName": "WebLinkerStore",
+    "apiName": "StoreWL",
     "serviceName": "AppSync",
     "defaultAuthType": {
       "mode": "API_KEY",
@@ -14,7 +14,7 @@
       },
       {
         "mode": "AMAZON_COGNITO_USER_POOLS",
-        "cognitoUserPoolId": "authWebLinkerStore"
+        "cognitoUserPoolId": "authStoreWL"
       }
     ],
     "conflictResolution": {
